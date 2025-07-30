@@ -83,3 +83,21 @@
 .is-hidden {
   display: none;
 }
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.load-more:hover {
+  background-color: #2f5aff;
+}
+.load-more.is-hidden {
+  display: none;
+}
